@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RuSwift_Tests' do
+  pod 'RuSwift', :path => '../'
+  
+  
+end
