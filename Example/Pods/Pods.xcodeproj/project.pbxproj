@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F3E9FD4AD52CBBA0B3210ED199BDB22 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5380CA2AB79280E3A3BED639B7B85D /* ReplaceMe.swift */; };
+		49842BC42337FCC500210DC5 /* RuWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49842BC32337FCC500210DC5 /* RuWord.swift */; };
 		832519EC74D12A70DE12CD5D5D830CC7 /* RuSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1202C109DB4CE9BFD307F56E44611D /* RuSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7077ADB47239D98C17EAB94DB6A44BF /* Pods-RuSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7704936DCCAFDA6BAD6C037730E98 /* Pods-RuSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACDCE3D769C6A72577782386FA895B22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -28,28 +28,28 @@
 
 /* Begin PBXFileReference section */
 		14C129188B1EF32EB222E3D0A085D57F /* RuSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RuSwift.xcconfig; sourceTree = "<group>"; };
-		1F9E18AF36ECCCDD74F586A5421B2A15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		21A07029B146D038534CA1A031E17F8E /* RuSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RuSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F9E18AF36ECCCDD74F586A5421B2A15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		21A07029B146D038534CA1A031E17F8E /* RuSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RuSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2E76B9E9EE8D460EB51791F278DAE1D8 /* Pods-RuSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RuSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		30F7704936DCCAFDA6BAD6C037730E98 /* Pods-RuSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RuSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3CD4EA34620E20AC5413AE4EBEE2C0F9 /* RuSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RuSwift-dummy.m"; sourceTree = "<group>"; };
 		3EB45F691EAA7988A2721BECCA6FF1AB /* Pods-RuSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RuSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		596A9C8C175D3B102618B9AC08EB8E9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		49842BC32337FCC500210DC5 /* RuWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RuWord.swift; path = RuSwift/Classes/RuWord.swift; sourceTree = "<group>"; };
+		596A9C8C175D3B102618B9AC08EB8E9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		90D07B546DB5501B613007BD5604D984 /* Pods-RuSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RuSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		9143AA5DEDDCC86218B1A6864A038DAC /* RuSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RuSwift.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB1202C109DB4CE9BFD307F56E44611D /* RuSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RuSwift-umbrella.h"; sourceTree = "<group>"; };
 		B138249584F4A06F95B1763BF2EA7D07 /* Pods-RuSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RuSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B537AD2A4E7A021154DA04410571C201 /* Pods-RuSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RuSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		BB0F01460B5BA70727CB620891AC5271 /* Pods-RuSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RuSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C84E1CA48AC673BC7AA8686A6FC52795 /* Pods_RuSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RuSwift_Tests.framework; path = "Pods-RuSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84E1CA48AC673BC7AA8686A6FC52795 /* Pods_RuSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F742D9165F458D1C40B3B36245F0F7 /* Pods-RuSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RuSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		DAD8255FEBB2ECF50D1D137D8CF713DB /* RuSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RuSwift-Info.plist"; sourceTree = "<group>"; };
-		DB5380CA2AB79280E3A3BED639B7B85D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RuSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F2DAD2FB44F232C39155C94E97946CF8 /* Pods-RuSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RuSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F83878B283F936D2979B9264339F53E0 /* RuSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RuSwift-prefix.pch"; sourceTree = "<group>"; };
-		F9AE7091FC9BEB1DD63B546FE0968830 /* RuSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RuSwift.framework; path = RuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AE7091FC9BEB1DD63B546FE0968830 /* RuSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +168,7 @@
 		EE3578BD7FDE649CDA9367E593DCC9D4 /* RuSwift */ = {
 			isa = PBXGroup;
 			children = (
-				DB5380CA2AB79280E3A3BED639B7B85D /* ReplaceMe.swift */,
+				49842BC32337FCC500210DC5 /* RuWord.swift */,
 				9F91D784E848E549F3D543873CE4B750 /* Pod */,
 				B8F4BC691B9A60E37CDB8785B911C0A5 /* Support Files */,
 			);
@@ -243,6 +243,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					8AE1F2596CFAC2D7A32060368287DF4E = {
+						LastSwiftMigration = 1030;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -284,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F3E9FD4AD52CBBA0B3210ED199BDB22 /* ReplaceMe.swift in Sources */,
 				D808CAF841C6E0442DC6426400065DD6 /* RuSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49842BC42337FCC500210DC5 /* RuWord.swift in Sources */,
 				D9394B88B72F99FAB6F40E251F979029 /* Pods-RuSwift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +319,7 @@
 			baseConfigurationReference = 3EB45F691EAA7988A2721BECCA6FF1AB /* Pods-RuSwift_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -336,6 +342,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -395,8 +403,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -534,6 +541,7 @@
 			baseConfigurationReference = B138249584F4A06F95B1763BF2EA7D07 /* Pods-RuSwift_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -556,6 +564,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
