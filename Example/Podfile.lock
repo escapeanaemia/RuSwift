@@ -1,0 +1,16 @@
+PODS:
+  - RuSwift (0.1.0)
+
+DEPENDENCIES:
+  - RuSwift (from `../`)
+
+EXTERNAL SOURCES:
+  RuSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RuSwift: bc614e578483cf9a49356481f579ee176158648d
+
+PODFILE CHECKSUM: 336a6f9d5138e97f9316729cf1ee54da8ad0c961
+
+COCOAPODS: 1.7.3

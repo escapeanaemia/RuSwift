@@ -1,0 +1,6 @@
+framework module RuSwift {
+  umbrella header "RuSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_RuSwift_Tests {
+  umbrella header "Pods-RuSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
